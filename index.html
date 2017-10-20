@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <link rel="stylesheet" href="Content/css/style.css">
+    <link rel="stylesheet" href="Content/fonts1/iconfont.css">
+    <link rel="stylesheet" href="Script/swiper/swiper-3.3.1.min.css">
+</head>
+<body ng-app="app" ng-controller="server">
+<div id="box">
+    <header>
+        <span></span><span><a ng-href="#/server">服务</a><a ng-href="#/jr">金融</a><b></b></span><span class="icon iconfont icon-fangdajing"></span>
+    </header>
+    <section>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Content/image/q.jpg"></div>
+                <div class="swiper-slide"><img src="Content/image/w.jpg"></div>
+                <div class="swiper-slide"><img src="Content/image/e.jpg"></div>
+                <div class="swiper-slide"><img src="Content/image/r.jpg"></div>
+                <div class="swiper-slide"><img src="Content/image/t.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="car">
+            <div class="li"><img src="Content/img/w.gif" alt=""><span>车商城</span></div>
+            <div class="li"><img src="Content/img/e.gif" alt=""><span>分期购车</span></div>
+            <div class="li"><img src="Content/img/r.gif" alt=""><span>团购活动</span></div>
+            <div class="li"><img src="Content/img/t.gif" alt=""><span>找二手车</span></div>
+        </div>
+        <div class="pact">
+            <img src="Content/img/y.gif">
+        </div>
+        <div class="list">
+            <h5>车主服务</h5>
+            <div class="serve">
+                <div class="item"><img src="Content/img/u.gif"><span>油卡充值</span></div>
+                <div class="item"><img src="Content/img/i.gif"><span>低价保险</span></div>
+                <div class="item"><img src="Content/img/o.gif"><span>4S店保养</span></div>
+                <div class="item"><img src="Content/img/p.gif"><span>品质轮胎</span></div>
+            </div>
+            <div class="serve">
+                <div class="item"><img src="Content/img/a.gif"><span>车品商城</span></div>
+                <div class="item"><img src="Content/img/s.gif"><span>洗车</span></div>
+                <div class="item"><img src="Content/img/d.gif"><span>违章代缴</span></div>
+                <div class="item"><img src="Content/img/f.gif"><span>免费测评</span></div>
+            </div>
+            <div class="serve">
+                <div class="item"><img src="Content/img/g.gif"><span>查周边</span></div>
+                <div class="item"><img src="Content/img/h.gif"><span>车主卡</span></div>
+                <div class="item"><img src="Content/img/j.gif"><span>领卷保养</span></div>
+                <div class="item"><img src="Content/img/k.gif"><span>全部</span></div>
+            </div>
+        </div>
+        <div class="time">
+            <span>限时抢购</span>
+            <p>
+                <span>13</span>: <span>13</span>: <span>13</span>
+            </p>
+        </div>
+        <div id="iscro">
+            <div class="prop">
+                <div class="every">
+                    <img src="Content/img/l.gif">
+                    <p>补胎工具建议套装</p>
+                    <span>￥9.9元<small>20元</small></span>
+                </div>
+                <div class="every">
+                    <img src="Content/img/z.gif">
+                    <p>车用椅背挂钩</p>
+                    <span>￥9.9元<small>20元</small></span>
+                </div>
+                <div class="every">
+                    <img src="Content/img/x.gif">
+                    <p>去痕增亮膏</p>
+                    <span>￥9.9元<small>20元</small></span>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="top"><h5>活动专区</h5><span>更多 ></span></div>
+            <div class="bom">
+                <div class="le">
+                    <div class="left">
+                        <h4>测身价炫富</h4>
+                        <span>身价大PK</span>
+                        <img src="Content/img/c.gif">
+                    </div>
+                    <div class="right">
+                        <h4>全场0利率</h4>
+                        <span>购车无压力</span>
+                        <img src="Content/img/v.gif">
+                    </div>
+                </div>
+                <div class="ri">
+                    <h4>好车分期</h4>
+                    <span>定制专属方案</span>
+                    <img src="Content/img/b.gif">
+                </div>
+            </div>
+        </div>
+        <div class="show">
+            <ui-view></ui-view>
+        </div>
+        <div class="show">
+            <ui-view></ui-view>
+        </div>
+    </section>
+    <footer>
+        <a href="javascript:;">
+            <i class="icon iconfont icon-shouye"></i>首页
+        </a>
+        <a href="javascript:;">
+            <i class="icon iconfont icon-tengxunweibo"></i>
+            论坛
+        </a>
+        <a href="javascript:;">
+            <i class="icon iconfont icon-daishouhuo-01"></i>
+            选车
+        </a>
+        <a href="javascript:;">
+            <i class="icon iconfont icon-address"></i>
+            发现
+        </a>
+        <a href="javascript:;">
+            <i class="icon iconfont icon-yonghu"></i>
+            未登录
+        </a>
+    </footer>
+</div>
+<script type="text/javascript" src="Script/angular/angular.js"></script>
+<script type="text/javascript" src="Script/angular-ui/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="Script/swiper/swiper-3.3.1.min.js"></script>
+<script type="text/javascript" src="Script/jquery/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="Script/iscroll/iscroll4.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+<script type="text/javascript" src="App/Service/baseServer.js"></script>
+<script type="text/javascript" src="App/Service/server.js"></script>
+<script type="text/javascript" src="App/controller/controller.js"></script>
+<script type="text/javascript" src="App/directive/directive.js"></script>
+<script type="text/javascript">
+    (function(doc){
+        doc.documentElement.style.fontSize=doc.documentElement.clientWidth/375*50+"px"
+    }(document));
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 1000,
+        loop:true,
+        pagination:".swiper-pagination",
+        paginationClickable:true,
+        autoplayDisableOnInteraction : false,
+        paginationType : 'bullets'
+    });
+   var  myNav=new iScroll('iscro', {
+       hScroll:true,
+       vScroll:false,
+       hScrollbar:false
+   });
+</script>
+</body>
+</html>
